@@ -1,0 +1,23 @@
+ProgrammeProgSI2025 → program <NomProg> ; <Corps> .
+NomProg → <Identificateur>
+Corps → <PartieDéfinitionConstante><PartieDéfinitionVariable> <InstrComp> / <InstrComp>
+PartieDefinitionConstante → const <DéfinitionConstante> ; / <vide>
+PartieDefinitionVariable → var <DéfinitionVariables> ; / <vide>
+DefinitionVariables → <DéfinitionVariable> ; <DéfinitionVariables> / <DéfinitionVariable>
+DefinitionVariable → <GroupeVariable> : <IdentificateurType>
+DefinitionVariables → <DéfinitionVariable> ; <DéfinitionVariables> / <DéfinitionVariable>
+InstrComp → begin <Instructions> end
+Instructions → <Instruction> ; <Instructions> / <Instruction> ;
+InstructionAffectation → <Identificateur> := <Expression>
+Expression → <Expression><OperateurArithmétique><Expression> / (<Expression>) / <Identificateur> / <ValeurNumérique>
+Instructions → <Instruction> ; <Instructions> / <Instruction> ;
+InstructionRepeter → Répéter <Instructions> Jusqu <Condition>
+Instructions → <Instruction> ; <Instructions> / <Instruction> ;
+InstructionAffectation → <Identificateur> := <Expression>
+Expression → <Expression><OperateurArithmétique><Expression> / (<Expression>) / <Identificateur> / <ValeurNumérique>
+Expression → <Expression><OperateurArithmétique><Expression> / (<Expression>) / <Identificateur> / <ValeurNumérique>
+Instructions → <Instruction> ; <Instructions> / <Instruction> ;
+Expression → <Expression><OperateurArithmétique><Expression> / (<Expression>) / <Identificateur> / <ValeurNumérique>
+Expression → <Expression><OperateurArithmétique><Expression> / (<Expression>) / <Identificateur> / <ValeurNumérique>
+Instructions → <Instruction> ; <Instructions> / <Instruction> ;
+Programme reconnu
