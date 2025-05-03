@@ -11,8 +11,8 @@ Designed as a foundational project for understanding compiler construction princ
 ## 📁 Project Structure
 
 Compilation/
-├── lexical_last.js # JavaScript-based lexical analyzer
-├── AnalyseSen.java # Java-based syntax analyzer
+├── lexical/lexical_last.js # JavaScript-based lexical analyzer
+├── syntax/src/syntax/AnalyseSen.java # Java-based syntax analyzer
 
 ---
 
