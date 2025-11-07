@@ -1,4 +1,4 @@
-# Compilation Analyzers 🔍
+# Lexa Analyzers 🔍
 
 This project contains two main components:
 - **Lexical Analyzer** (JavaScript): `lexical_last.js`
